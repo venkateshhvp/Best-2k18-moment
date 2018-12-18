@@ -62,7 +62,7 @@
   }
 
   .textinfo{
-    font-size: 17px;
+    font-size: 18px;
     text-decoration: none;
     font-family: "Trebuchet MS", Helvetica, sans-serif;
     color:#349;
@@ -70,6 +70,15 @@
     font-style: oblique
   }
 
-  img{
-      width: 50px;;
+  .card border-info{
+      border-radius: 100px;
   }
+
+  img{
+      width: 50px;
+      padding:6px; 
+  }
+
+ b{
+     font-size: 18px;
+ }
