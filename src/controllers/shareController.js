@@ -1,0 +1,1 @@
+var shareService = require('./services/shareService');
