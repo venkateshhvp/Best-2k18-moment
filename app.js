@@ -7,13 +7,15 @@ var db = require('./src/db/mongoose');
 var app = express();
 var port = process.env.PORT || 80;
 var share = require('./src/controllers/shareController'); 
-var url = require('./src/controllers/urlGenerate');
+var url = require('./src/controllers/urlController');
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use(express.static(path.join(__dirname, 'dist/tellaboutme')));
 app.use('/', express.static(path.join(__dirname, 'dist/tellaboutme')));
 
 
+app.use('api/share',share);
+app.use('api/url',url);
 
 
 
