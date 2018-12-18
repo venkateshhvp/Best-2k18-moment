@@ -2,7 +2,7 @@
 var express = require('express');
 var path = require('path');
 var favicon = require('serve-favicon');
-
+var db = require('./src/db/mongoose');
 
 var app = express();
 var port = process.env.PORT || 80;
@@ -14,8 +14,6 @@ app.use(express.static(path.join(__dirname, 'dist/tellaboutme')));
 app.use('/', express.static(path.join(__dirname, 'dist/tellaboutme')));
 
 
-app.use('api/share',share);
-app.use('api/url',url);
 
 
 
