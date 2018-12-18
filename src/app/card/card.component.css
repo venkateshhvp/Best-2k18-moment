@@ -1,0 +1,75 @@
+.card-header{
+    background-color: #348;
+    color: white;
+    font-family: "Trebuchet MS";
+    text-align: center;
+
+}
+
+.ss{
+    color: gold;
+}
+
+.button{
+    background-color: #348;
+    color: white ;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+
+}
+
+.button {
+    border: none;
+    color: white;
+    padding: 4px 20px;
+    text-align: center; 
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 3px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+    margin-right: 33%;
+    margin-left: 33%; 
+
+    background-color: white; 
+    color:#349; 
+    border: 2px solid #349;
+  }
+  
+  .button:hover {
+    background-color: #349;
+    color:white;
+  }
+  
+
+  #emailHelp{
+      font-size: 15px;
+  }
+
+  .update{
+      color: darkgreen;
+      font: bold;
+      font-size: 22px;
+      
+  }
+
+  .add{
+      color:#349;
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      font-size: 22px;
+
+  }
+
+  .textinfo{
+    font-size: 17px;
+    text-decoration: none;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    color:#349;
+    padding-top: 1px;
+    font-style: oblique
+  }
+
+  img{
+      width: 50px;;
+  }

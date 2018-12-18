@@ -1,0 +1,95 @@
+<app-toolbar>
+    </app-toolbar>
+    <br><br>
+<div class="row" *ngIf="!share">
+
+    <div class="col-md-4 col-sd-4 "></div>
+      
+    <div class="col-md-4 col-sd-4">
+<div class="card">
+    <h5 class="card-header">SHARE YOUR BEST MOMENT IN 2k18 WITH  </h5>
+    <div class="card-body">
+        <br>
+        <div class="form-group">
+
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="NAME" required>
+            <small id="emailHelp" class="form-text text-muted">*Enter your name</small>
+
+            <br>
+
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="JUST SHARE" required></textarea>
+            <small id="emailHelp" class="form-text text-muted">*Share your best moment </small>
+
+          </div>
+     <button class="button" (click)="shareMessage()">Submit </button>
+        </div>
+  </div>
+       
+  </div>
+
+  <div class="col-md-4 col-sd-4"></div>
+
+  </div>
+  
+  
+  <div class="row" *ngIf="share && !link">
+
+    <div class="col-md-4 col-sd-4 "></div>
+      
+    <div class="col-md-4 col-sd-4">
+            <div class="card">
+            <h5 class="card-header">CREATE YOUR OWN *-*  </h5>
+
+    <div class="card-body">
+        <br>
+        <div class="form-group">
+
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="NAME" required>
+            <small id="emailHelp" class="form-text text-muted">*Enter your name</small>
+
+          </div>
+
+     <button class="button" (click)="generateLink()">Create </button>
+        </div>
+  </div>
+       
+  </div>
+  </div>
+
+  <div class="row" *ngIf="link">
+
+    <div class="col-md-4 col-sd-4 "></div>
+      
+    <div class="col-md-4 col-sd-4">
+            <div class="card">
+            <h5 class="card-header ss"> SEND TO YOUR FRIENDS  </h5>
+
+    <div class="card-body">
+        <br>
+        <div class="form-group">
+
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="YourID">
+            <br>
+
+            <h5 class="textinfo">Send to your friends to know your best moment with them and start a new year..!!</h5>
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<br>
+
+<!-- Add font awesome icons -->
+<a href="www.facebook.com"><img src="./assets/fb.png"></a>
+<a href="ss"><img src="./assets/messenger.png"></a>
+<a href="hc"><img src="./assets/whatsapp.png"></a>
+<a href="hc"><img src="./assets/insta.png"></a>
+
+
+          </div>
+
+        </div>
+  </div>
+       
+  </div>
+  </div>
+  

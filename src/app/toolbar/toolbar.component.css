@@ -1,0 +1,28 @@
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #349;
+}
+
+
+li {
+  display: block;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  font-size: 20px;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+}
+
+.active{
+    font-size: 17px;
+    text-decoration: none;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    color: gold;
+    padding-top: 1px;
+}
+
+

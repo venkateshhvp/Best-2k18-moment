@@ -1,0 +1,22 @@
+.card-header{
+    background-color:#349;
+    color:gold;
+    font-family: "Trebuchet MS";
+    text-align: center;
+
+}
+
+h5{
+    color: black
+}
+
+b{
+    color:#349;
+    float:right;
+    font-family: "Trebuchet MS";
+    font-size: 17px;
+}
+
+.card-border-info{
+    border-radius: 25px;
+}
