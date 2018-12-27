@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute,Router } from '@angular/router';
 import { CookieService } from 'ngx-cookie-service';
-
+import {ApiService} from '../api.service';
 @Component({
     selector: 'app-card',
     templateUrl: './card.component.html',
@@ -15,7 +15,7 @@ export class CardComponent implements OnInit {
     public userId: String;
     public sub: any;
     
-constructor(private route: ActivatedRoute, private cookie : CookieService, private router: Router) {}
+constructor(private route: ActivatedRoute, private cookie : CookieService, private router: Router, private apiService:ApiService ) {}
     ngOnInit(){
         this.share = false;
         this.link = false;
@@ -29,8 +29,9 @@ constructor(private route: ActivatedRoute, private cookie : CookieService, priva
          
 }
     
-public shareMessage(){
+public shareMessage(data){
     this.share = true;
+    this.apiService.share(data);
 }
 
 public generateLink(){

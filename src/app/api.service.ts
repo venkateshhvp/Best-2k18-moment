@@ -12,8 +12,8 @@ API_URL  =  window.location.origin;
 constructor(private  http:  HttpClient) { }
 
 
-createPackage(data){
-  return  this.http.post(`${this.API_URL}/package/`,data);
+share(data){
+  return  this.http.post(`${this.API_URL}/api/share/`,data);
 }
 }
 

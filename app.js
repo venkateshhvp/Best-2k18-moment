@@ -14,8 +14,8 @@ app.use(express.static(path.join(__dirname, 'dist/tellaboutme')));
 app.use('/', express.static(path.join(__dirname, 'dist/tellaboutme')));
 
 
-app.use('api/share',share);
-app.use('api/url',url);
+app.use('/api/share',share);
+app.use('/api/url',url);
 
 
 
